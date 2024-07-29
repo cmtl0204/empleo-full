@@ -392,18 +392,12 @@ $page = 1;
 
 								   	<div class="col-sm-12 col-md-6">
 						
-							        <div class="form-group"> 
-								    <label>Certificado <i>(Dejar en blanco si no desea actualizar)</i></label>
-								    <input class="form-control" accept="application/pdf" type="file" name="certificate"> 
-							        </div>
+							        
 						
 						           </div>
 								   	<div class="col-sm-12 col-md-6">
 						
-							        <div class="form-group"> 
-								    <label>Transcripción <i>(Dejar en blanco si no desea actualizar)</i></label>
-								    <input class="form-control" accept="application/pdf" type="file" name="transcript"> 
-							        </div>
+							        
 						
 						           </div>
 						
