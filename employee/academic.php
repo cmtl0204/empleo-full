@@ -392,20 +392,18 @@ $page = 1;
 
 								   	<div class="col-sm-12 col-md-6">
 						
-							        
-						
+							        						
 						           </div>
 								   	<div class="col-sm-12 col-md-6">
 						
-							        
-						
+							       						
 						           </div>
 						
 					               </div>
 				                   </div>
 				                   <input type="hidden" name="courseid" value="<?php echo "$course_id"; ?>">
 				                   <div class="modal-footer text-center">
-				 	               <button type="submit" class="btn btn-primary">Enviar</button>
+				 	               <button type="submit" class="btn btn-primary">Guardar</button>
 					               <button type="button" data-dismiss="modal" class="btn btn-primary btn-inverse">Cerrar</button>
 				                   </div>
 				                   </form>
