@@ -1,6 +1,6 @@
 <?php
 require('html_table.php');
-require '../.././constants/db_config.php';
+require '../../constants/db_config.php';
 require '../constants/check-login.php';
 
 if ($user_online == "true") {
@@ -12,7 +12,8 @@ header("location:../");
 header("location:../");
 }
 
-
+$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $pdf=new PDF_HTML_Table();
 $pdf->AddPage();
