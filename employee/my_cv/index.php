@@ -12,7 +12,7 @@ header("location:../");
 header("location:../");
 }
 
-$conn = new PDO("mysql:host=207.244.242.219;dbname=job_board", 'root', 'dxA9aj.4iZBmWy,)');
+
 
 $pdf=new PDF_HTML_Table();
 $pdf->AddPage();
