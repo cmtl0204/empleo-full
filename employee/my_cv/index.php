@@ -12,7 +12,7 @@ header("location:../");
 header("location:../");
 }
 
-$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
+$conn = new PDO("mysql:host=207.244.242.219;dbname=job_board", 'root', 'dxA9aj.4iZBmWy,)');
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $pdf=new PDF_HTML_Table();
