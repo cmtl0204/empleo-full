@@ -12,10 +12,6 @@ header("location:../");
 header("location:../");
 }
 
-$conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
-$conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-
-$stmt = $conn->prepare("SELECT * FROM tbl_users WHERE member_no = '$myid'");
 
 
 $pdf=new PDF_HTML_Table();
