@@ -1,5 +1,7 @@
 <?php
-require('./fpdf.php');
+require('html_table.php');
+require '../.././constants/db_config.php';
+require '../constants/check-login.php';
 
 $pdf=new FPDF();
 $pdf->AddPage();
