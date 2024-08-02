@@ -16,19 +16,7 @@ $conn = new PDO("mysql:host=$servername;dbname=$dbname", $username, $password);
 $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
 $stmt = $conn->prepare("SELECT * FROM tbl_users WHERE member_no = '$myid'");
-$stmt->execute();
-$result = $stmt->fetchAll();
 
-foreach($result as $row)
-{
-$mygender = $row['gender'];
-$myemail = $row['email'];
-$mycountry = $row['country'];
-$mycity = $row['city'];
-$mystreet = $row['street'];
-$myzip = $row['zip'];
-
-}
 
 $pdf=new PDF_HTML_Table();
 $pdf->AddPage();
